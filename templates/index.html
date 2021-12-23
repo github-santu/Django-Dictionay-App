@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+        body {
+            font-family: 'Open Sans',
+                sans-serif;
+            background: black;
+            color: cyan;
+            font-size: 16px;
+        }
+
+        .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+
+        .searchTerm {
+            width: 100%;
+            border: 2px solid greenyellow;
+            padding: 11px;
+            height: 20px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            border-radius: 13px;
+            font-weight: 900;
+            color: black;
+        }
+
+        .searchTerm:focus {
+            color: black;
+        }
+
+        form {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .searchButton {
+            width: 80px;
+            height: 36px;
+            border: 1px solid cyan;
+            background: cyan;
+            text-align: center;
+            color: rgb(234, 240, 234);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 20px;
+            margin: 34px;
+        }
+
+        .wrap {
+            width: 30%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid;
+            padding: 42px;
+            border-radius: 20px;
+        }
+    </style>
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <h2>Dictionary search Any Word</h2>
+        <div class="search">
+            <form action="word">
+                <input type="text" name="search" class="searchTerm" placeholder="Input your word here">
+                <button type="submit" class="searchButton"><i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
