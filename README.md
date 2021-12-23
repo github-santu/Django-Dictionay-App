@@ -5,8 +5,7 @@ Django Dictionary App
 ======================
 
 The Django Dictionary App is a simple means of displaying a list of items
-ordered alphabetically. Useful for Martial Arts websites and education
-articles where alphabetized lists are used often.
+ordered alphabetically.
 
 
 Installation
